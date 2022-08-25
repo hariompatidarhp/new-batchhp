@@ -12,9 +12,9 @@ router.get("/test-me", function (req, res) {
 
 
 
-router.post("/createBook", BookController.createBook  )
-
-
+router.post("/createBook1", BookController.createBook  )
+router.post("/createBook2", BookController.createBook  )
+router.post("/createBook3", BookController.createBook  )
 
 
 // router.post("/createUser", UserController.createUser  )
@@ -48,7 +48,7 @@ router.post("/createBook", BookController.createBook  )
 
 
 
-router.get("/basicRoute", commonMW.mid1, commonMW.mid2, commonMW.mid3, commonMW.mid4, UserController.basicCode)
+//router.get("/basicRoute", commonMW.mid1, commonMW.mid2, commonMW.mid3, commonMW.mid4, UserController.basicCode)
 
 
 
@@ -56,7 +56,7 @@ router.get("/basicRoute", commonMW.mid1, commonMW.mid2, commonMW.mid3, commonMW.
 // router.get("/basicRoute3", commonMW.mid2, UserController.basicCode3)
 // router.get("/basicRoute4", commonMW.mid1, commonMW.mid4, UserController.basicCode4)
 
-
+//router.get("/basicRoute1")
 
 
 module.exports = router;
