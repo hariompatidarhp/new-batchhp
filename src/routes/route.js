@@ -15,4 +15,8 @@ router.get("/users/:userId", userController.getUserData)
 
 router.put("/users/:userId", userController.updateUser)
 
+
+router.post("/createUser", userController.createUser  )
+router.post("/loginUser", userController.createUser  )
+router.get("/getUserData", userController.createUser  )
 module.exports = router;
