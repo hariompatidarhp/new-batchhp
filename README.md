@@ -43,3 +43,10 @@ If present, check that the token is valid.
 
 ``` 
 
+tryCatch_httpCodes
+mostly used :-
+200-sussessful
+404-user not found
+403-not Authorized
+401-Invalid Token
+500-server error
